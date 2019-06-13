@@ -1,0 +1,69 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// Layout Application
+
+.my_nav {
+  padding: 25px;
+}
+
+.social_media {
+  float: right;
+}
+
+.social_media ul li {
+  display: inline-block;
+  padding: 0px 48px 48px 48px;
+  margin: 48px 48px 48px 200px;
+  height: 48px;
+  float: right;
+  width: 100%;
+}
+
+.github {
+  list-style-type:none;
+  list-style-image: url("icons/ic_gh.png");
+}
+
+.linkedin {
+  list-style-type:none;
+  list-style-image: url("icons/ic_ln.png");
+}
+
+.facebook {
+  list-style-type:none;
+  list-style-image: url("icons/ic_fb.png");
+}
+
+.footer {
+  background-color: #fff;
+  margin: 25px 0 15;
+  width: 100%;
+  height: 275px;
+}
+// Welcome Page
+.btn_work {
+  float: right;
+  margin-top: 35px;
+}
+
+.j_main_index {
+  background-image: url("bg/bg_1.jpg");
+  background-position: center;
+  width: 100%;
+  height: 40%;
+  color: #fff
+}
+
+
+
+
+
+
+
+
+
+
+
+//

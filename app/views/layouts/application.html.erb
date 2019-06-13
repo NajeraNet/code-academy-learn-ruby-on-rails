@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <ul class="nav justify-content-center my_nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Edmundo Najera</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+    </ul>
+    <%= yield %>
+  </body>
+  <footer class="footer">
+    <div class="container">
+    <div class="row col-md-1 offset-md-11" >
+        <ul class="social_media">
+          <li class="github"></li>
+          <li class="linkedin"></li>
+          <li class="facebook"></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <div class="container">
+  <div class="row col-md-3 offset-md-9">
+      <p> © 2019 Edmundo Najera. </p>
+    </div>
+  </div>
+
+</html>
