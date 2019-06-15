@@ -10,6 +10,7 @@
 
 #list_icons {
   float: right;
+  margin: 35px;
 }
 
 #list_icons li {
@@ -32,6 +33,28 @@
   color: #fff;
   height: 40%;
   width: 100%;
+}
+
+// -----------------------------
+
+// Set a work css
+
+// -----------------------------
+
+.image-slider-wrapper {
+  overflow: hidden;
+}
+
+#image_slider {
+  position: relative;
+  height: 280px;
+  padding: 0;
+}
+
+#image_slider li {
+  max-width: 100%;
+  float: left;
+  list-style: none;
 }
 
 
