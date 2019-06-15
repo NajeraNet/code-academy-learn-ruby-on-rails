@@ -8,52 +8,26 @@
   padding: 25px;
 }
 
-.social_media {
+#list_icons {
   float: right;
 }
 
-.social_media ul li {
-  display: inline-block;
-  float: right;
-
-  width: 100%;
-  height: 48px;
-  margin: 48px 48px 48px 200px;
-  padding: 0px 48px 48px 48px;
+#list_icons li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+  float: left;
 }
 
-.github {
-  list-style-type:none;
-  list-style-image: url("icons/ic_gh.png");
-}
-
-.linkedin {
-  list-style-type:none;
-  list-style-image: url("icons/ic_ln.png");
-}
-
-.facebook {
-  list-style-type:none;
-  list-style-image: url("icons/ic_fb.png");
-}
-
-.footer {
-  width: 100%;
-  height: 275px;
-  margin: 25px 0 15;
-
-  background-color: #fff;
-}
 // Welcome Page
 .btn_work {
   float: right;
-
-  margin-top: 35px;
+  margin: 35px;
 }
 
 .j_main_index {
   background: #2b2b2b;
-  background-image: url("https://res.cloudinary.com/najeranet-cloud-images/image/upload/v1560602818/samples/landscapes/girl-urban-view.jpg");
+  background-image: url("https://res.cloudinary.com/najeranet-cloud-images/image/upload/v1560602824/samples/landscapes/nature-mountains.jpg");
   background-position: center;
   color: #fff;
   height: 40%;
