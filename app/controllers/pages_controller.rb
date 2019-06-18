@@ -5,4 +5,7 @@ class PagesController < ApplicationController
   def portfolio
     #code
   end
+  def about
+    #code
+  end
 end
